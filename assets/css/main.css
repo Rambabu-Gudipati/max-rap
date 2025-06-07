@@ -5278,8 +5278,8 @@ input, select, textarea {
     }
 
     .image-content img {
-      width: 100%;
-      height: auto;
+      width: 300px;
+      height: 338px;
       border: 1px solid #ccc;
       border-radius: 5px;
     }
@@ -5359,6 +5359,12 @@ input, select, textarea {
       gap: 20px;
       animation: scrollUp 20s linear infinite;
     }
+
+	.news-scroll {
+  height: 420px; /* adjust based on your layout */
+  overflow: hidden;
+  position: relative;
+}
 
     .news p {
       font-size: 14px;
