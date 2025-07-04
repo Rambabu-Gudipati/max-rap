@@ -223,7 +223,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+		margin: 0 0 0.5rem 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -5330,6 +5330,7 @@ input, select, textarea {
       line-height: 1.7;
       color: #333;
     }
+	
 
     .btn {
       margin-top: 20px;
@@ -5349,7 +5350,7 @@ input, select, textarea {
       padding: 20px;
       border-radius: 10px;
       background-color: white;
-      height: 500px;
+      height: 550px;
       overflow-y: hidden;
 	  position: relative;
     }
@@ -5426,3 +5427,19 @@ input, select, textarea {
   color: white;
 
 }
+
+ .max-rap-heading {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .max-rap-heading h3 {
+      color: #2a5caa; /* blue shade */
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .max-rap-heading p small {
+      font-style: italic;
+      color: #3d7ecb; /* slightly lighter blue */
+    }
